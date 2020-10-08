@@ -13,3 +13,6 @@ https://www.udrop.com/1TIv/Screen_Shot_2020-10-08_at_4.40.59_PM.png
 https://www.udrop.com/1TIw/Screen_Shot_2020-10-08_at_4.40.51_PM.png 
 https://www.udrop.com/1TIx/Screen_Shot_2020-10-08_at_4.40.44_PM.png
 
+Next steps:
+
+Remove embedded code and add CSS/JS to Index.html. / Posible fix.
