@@ -14,3 +14,5 @@ https://youtu.be/f1MEb7cog5Y
 Next steps:
 
 Remove embedded code and add CSS/JS to Index.html. / Posible fix.
+
+Then adjust similar grid and components to the look of the dribbble design.
