@@ -16,3 +16,8 @@ Next steps:
 Remove embedded code and add CSS/JS to Index.html. / Posible fix.
 
 Then adjust similar grid and components to the look of the dribbble design.
+
+---
+
+When downloading the zip file of the code-challange repo it works in computer.
+
