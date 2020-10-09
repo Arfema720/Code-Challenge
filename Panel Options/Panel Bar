@@ -195,6 +195,7 @@
 
           
         }
+
       </style>
 
 
@@ -206,7 +207,7 @@
 
           <!-- Filter panel -->
           <div class="mb-5">
-            <h5 class="font-weight-bold mb-3">Road Attributes</h5>
+          <h5 class="font-weight-bold mb-3">Road Attributes</h5>
 
            
 
@@ -267,12 +268,64 @@
               <input type="checkbox" class="form-check-input" id="materialGroupExample4" name="groupOfMaterialRadios">
               <label class="form-check-label" for="materialGroupExample4">Next to carpool/HOV/Bus lane</label>
             </div>
-
+            <div>
+            </div>
           </div>
           <!-- Filter panel -->
-
+          <div class="mb-5">
+            <ul class="list-unstyled link-black">
+              
+             
+              <li class="mb-2">
+                <a href="" class="">Direction</a>
+                <div class="input-group mb-2">
+                <input type="text" class="form-control" placeholder="Enter street name" a="Recipient's username" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                
+                </div>
+               </div>
+              </li>
           <!-- Filter panel -->
-          
+          <div class="mb-5">
+            <ul class="list-unstyled link-black">
+              
+              <li class="mb-2">
+                <a href="" class="">Speed limit</a>
+              <li class="mb-2">
+              
+                <a href="" class=""><strong>Normal vehicles</strong></a>
+                <input step="10" type="number" id="inputLoop" value="0" data-decimals="0" min="-10" max="360"/>
+               
+                <a href="" class="">Mph</a>
+              
+                <li class="mb-2">
+              
+                  <a href="" class=""><strong>Truck weight</strong></a>
+                  <input step="10" type="number" id="inputLoop" value="0" data-decimals="0" min="-10" max="360"/>
+                  <a href="" class="">Tones</a>
+                  
+                  <li class="mb-2"></li>
+              
+                    <a href="" class=""><strong>Truck Limit</strong></a>
+                    <input step="10" type="number" id="inputLoop" value="0" data-decimals="0" min="-10" max="360"/>
+                    <a href="" class="">Mph</a>
+                    
+               </div>
+              </li>
+          <!-- Filter panel -->
+          <div class="mb-5">
+            <ul class="list-unstyled link-black">
+              
+             
+              <li class="mb-2">
+                <a href="" class="">Street name</a>
+                <div class="input-group mb-2">
+                <input type="text" class="form-control" placeholder="Enter street name" a="Recipient's username" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                
+                </div>
+               </div>
+              </li>
 
           </div>
           <!-- Filter panel -->
@@ -294,6 +347,15 @@
 
 
   </div>
-
-
+  <script>
+    var $changedInput = $("#changedInput")
+var $valueOnInput = $("#valueOnInput")
+var $valueOnChange = $("#valueOnChange")
+$changedInput.on("input", function (event) {
+    $valueOnInput.html($changedInput.val())
+})
+$changedInput.on("change", function (event) {
+    $valueOnChange.html($changedInput.val())
+})
+  </script>
 </body>
