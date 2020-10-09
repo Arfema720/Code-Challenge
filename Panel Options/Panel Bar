@@ -305,10 +305,10 @@
                       <input type="radio" name="options" id="option1" checked> Two way ⇄
                     </label>
                     <label class="btn btn-light btn-light">
-                      <input type="radio" name="options" id="option2">   A > B  
+                      <input type="radio" name="options" id="option2">   A>B  
                     </label>
                     <label class="btn btn-light btn-light">
-                      <input type="radio" name="options" id="option3"> B > A
+                      <input type="radio" name="options" id="option3"> B>A
                     </label>
                
               </li>
