@@ -159,13 +159,27 @@
   border-color: rgba(255, 255, 255, .1);
 }
 
-.button {
+.buttons {
   height: 2px;
   width: 1px;
+  color:
 }
 .form-control-dark:focus {
   border-color: transparent;
   box-shadow: 0 0 0 3px rgba(255, 255, 255, .25);
+}
+.btn-group {
+  width: 500px;
+          
+}
+
+.btn {
+
+ border-radius: 10px;
+ border-color: grey;
+ 
+}
+
 }
 
 
@@ -195,9 +209,9 @@
           height: 3px;
         }
 
-        .btn-groupbtn-group-toggle{
-          swidth: 200px;
+  
         }
+        
 
           
         }
@@ -213,12 +227,10 @@
 
           <!-- Filter panel -->
           <div class="mb-5">
-          <h5 class="font-weight-bold mb-3">Road Attributes</h5>
-
-           
-
+          
             <ul class="list-unstyled link-black">
-              
+              <li class="mb-2">
+                <h5 href="" class=""><strong>Road Attributes</strong></h5>
              
               <li class="mb-2">
                 <a href="" class="">Street name</a>
@@ -262,6 +274,8 @@
             <div class="form-check pl-0 mb-2">
               <input type="checkbox" class="form-check-input" id="materialGroupExample2" name="groupOfMaterialRadios"
                 checked>
+
+              
               <label class="form-check-label" for="materialGroupExample2">Tunnel</label>
             </div>
 
@@ -285,20 +299,22 @@
               <li class="mb-2">
                 <a href="" class="">Direction</a>
                 <div class="input-group mb-2">
+                
                   <div class="btn-group btn-group-toggle" data-toggle="buttons">
                     <label class="btn btn-secondary active">
-                      <input type="radio" name="options" id="option1" checked> Two way
+                      <input type="radio" name="options" id="option1" checked> Two way ⇄
                     </label>
-                    <label class="btn btn-secondary">
-                      <input type="radio" name="options" id="option2">   A>B  
+                    <label class="btn btn-light btn-light">
+                      <input type="radio" name="options" id="option2">   A > B  
                     </label>
-                    <label class="btn btn-secondary">
-                      <input type="radio" name="options" id="option3"> B>A
+                    <label class="btn btn-light btn-light">
+                      <input type="radio" name="options" id="option3"> B > A
                     </label>
                
               </li>
           <!-- Filter panel -->
           <div class="mb-5">
+            <div class="test">
             <ul class="list-unstyled link-black">
               
               <li class="mb-2">
@@ -314,9 +330,9 @@
               
                 <a href="" class=""><strong>Trucks</strong></a>
               
-                <button type="button" class="btn btn-primary">Default</button>
+                <button type="button" class="btn btn-light btn-sm">Default</button>
   
-                <button type="button" class="btn btn-secondary">Reduced</button>
+                <button type="button" class="btn btn-light btn-sm">Reduced</button>
                 <li class="mb-2"></li>
               </li>
            
