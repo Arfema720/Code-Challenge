@@ -132,6 +132,7 @@
           background-color: rgba(0, 0, 0, .1);
           height: 3px;
         }
+        
 
 .navbar-brand {
   padding-top: .75rem;
@@ -158,6 +159,10 @@
   border-color: rgba(255, 255, 255, .1);
 }
 
+.button {
+  height: 2px;
+  width: 1px;
+}
 .form-control-dark:focus {
   border-color: transparent;
   box-shadow: 0 0 0 3px rgba(255, 255, 255, .25);
@@ -177,8 +182,7 @@
           color: black;
         }
 
-        .link-black a:hover {
-          color: #0056b3;
+        
         }
 
         .link-black .active {
@@ -191,7 +195,9 @@
           height: 3px;
         }
 
-        .row d-flex justify-content-center{
+        .btn-groupbtn-group-toggle{
+          swidth: 200px;
+        }
 
           
         }
@@ -279,11 +285,17 @@
               <li class="mb-2">
                 <a href="" class="">Direction</a>
                 <div class="input-group mb-2">
-                <input type="text" class="form-control" placeholder="Enter street name" a="Recipient's username" aria-describedby="basic-addon2">
-                <div class="input-group-append">
-                
-                </div>
-               </div>
+                  <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                    <label class="btn btn-secondary active">
+                      <input type="radio" name="options" id="option1" checked> Two way
+                    </label>
+                    <label class="btn btn-secondary">
+                      <input type="radio" name="options" id="option2">   A>B  
+                    </label>
+                    <label class="btn btn-secondary">
+                      <input type="radio" name="options" id="option3"> B>A
+                    </label>
+               
               </li>
           <!-- Filter panel -->
           <div class="mb-5">
@@ -298,11 +310,22 @@
                
                 <a href="" class="">Mph</a>
               
+                <li class="mb-2"></li>
+              
+                <a href="" class=""><strong>Trucks</strong></a>
+              
+                <button type="button" class="btn btn-primary">Default</button>
+  
+                <button type="button" class="btn btn-secondary">Reduced</button>
+                <li class="mb-2"></li>
+              </li>
+           
+
                 <li class="mb-2">
               
                   <a href="" class=""><strong>Truck weight</strong></a>
                   <input step="10" type="number" id="inputLoop" value="0" data-decimals="0" min="-10" max="360"/>
-                  <a href="" class="">Tones</a>
+                  <a href="" class="">Tons</a>
                   
                   <li class="mb-2"></li>
               
@@ -313,39 +336,6 @@
                </div>
               </li>
           <!-- Filter panel -->
-          <div class="mb-5">
-            <ul class="list-unstyled link-black">
-              
-             
-              <li class="mb-2">
-                <a href="" class="">Street name</a>
-                <div class="input-group mb-2">
-                <input type="text" class="form-control" placeholder="Enter street name" a="Recipient's username" aria-describedby="basic-addon2">
-                <div class="input-group-append">
-                
-                </div>
-               </div>
-              </li>
-
-          </div>
-          <!-- Filter panel -->
-
-          <!-- Filter panel -->
-          
-          </div>
-          <!-- Filter panel -->
-
-        </div>
-        <!--Grid column-->
-
-      </div>
-      <!--Grid row-->
-
-
-    </section>
-    <!--Section: Content-->
-
-
   </div>
   <script>
     var $changedInput = $("#changedInput")
