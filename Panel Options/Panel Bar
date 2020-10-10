@@ -349,7 +349,7 @@
               <li class="mb-2">
               <div class="row">
                 <div class="col-lg-6">
-                  <a href="" class=""><strong>Truks weight</strong></a>
+                  <a href="" class=""><strong>Trucks weight</strong></a>
                 </div>
                 <div class="col-lg-6">
                   <input step="1" type="number" id="inputLoop" value="0" data-decimals="0" min="-10" max="360"/>
