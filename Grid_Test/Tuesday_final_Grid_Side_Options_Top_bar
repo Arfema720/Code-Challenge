@@ -152,23 +152,24 @@ svg:hover {
 }
 .btn{
 
-height: 30px;
+height: 40px;
+background-color: rgb(235, 233, 233);
 :
 }
 
 
 .col {
+  height:50%
 }
 
 .row>[class^=col] {
         padding-top: 1em;
         padding-bottom: 1em;
-        background-color: rgba(182, 89, 27, 0.25);
-        border: 1px solid rgba(228, 75, 15, 0.4);
+
     }
 
 .row {
-        margin-top: 0.25em;
+
 }
 .my-auto {
 margin-top: auto;
@@ -183,7 +184,7 @@ padding-left: 20px;
 }
 
 .mb-2{
-  width: auto;
+  width: ;
 }
 
 .mb-5 {
@@ -191,7 +192,7 @@ padding-left: 20px;
 }
 
 .buttons {
-  height: px;
+  height: 10px;
   width: 1px;
   color:
 }
@@ -209,15 +210,15 @@ padding-left: 20px;
 
 .map-container{
 overflow:hidden;
-padding-bottom:56.25%;
+padding-bottom:60%;
 position:relative;
 height:0;
 }
 .map-container iframe{
-left:50px;
+left:400px;
 top:0;
-height:100%;
-width:100%;
+height:190%;
+width:73%;
 align-items:fit;
 position:absolute;
 }
@@ -228,16 +229,35 @@ position:absolute;
 }
 
 .col3 {
-  background-color: #fff;
+  background-color: rgb(228, 228, 228);
 }
 
 .col6 {
-  background-color: #fff;
+  background-color: rgb(194, 101, 101);
 }
 
 .mb-5 {
-  padding: 10px;
+
   background-color: #fff;
+}
+
+
+
+.col7 {
+  background-color: #112337;
+  width: 500px;
+}
+
+.row2>[class^=col] {
+        padding-top: 1em;
+        padding-bottom: 1em;
+
+    }
+
+.row2 {
+       
+        background-color: #ffffff;
+
 }
 </style>
     <!-- Custom styles for this template -->
@@ -246,47 +266,47 @@ position:absolute;
   <body>
 <div class="row">
      
- <div class="col-md-2  col-sm-1 col6">
+ <div class="col-md-2  col-md-1 col7">
 
 </div>
             
-<div class="col-lg-10  col-sm-4" >
+<div class="col-lg-10 col-1" >
            
 
 
-<div class="col-lg-12  col-sm-1">
+<div class="col-lg-12  col-md-1">
 
 
 
-<div class="col-lg-12 col-sm-1 col3">
+<div class="col-lg-12 col-md-1 col3">
            
  <body>
 
-
-        <div class="col-md-2 my-auto"></div>
+<div class="row">
+<div class="col-md-2 col-md-6 my-auto"></div>
   <div class="col-lg-12">
           <div class="row">
-            <div class="col-sm-2 my-auto">
+            <div class="col-md-2 my-auto">
             <a><strong>Create a route</strong></a></div>
-            <div class="col-md-4 my-auto">
+            <div class="col-md-3 my-auto">
             <input type="text" class="form-control" placeholder="Search Something"></div>
-  <div class="col-md-2"><a></a></div>
-              <div class="col-md-3 col-md-1 my-auto">
-                <a>Sandra Rooisenberg ▼</a></div>
-                <div class="col-sm-2 col-md-1 my-auto">
+  <div class="col-md-4"><a></a></div>
+              <div class="col-md-2 col-md-1 my-auto">
+                <a>Sandra Rooisenberg    ▼ </a></div>
+                <div class="col-md-1 col-md-1 my-auto">
                   <img src="https://i.ibb.co/JqNb8v8/Screen-Shot-2020-10-13-at-1-07-16-AM.png" alt="Screen-Shot-2020-10-13-at-1-07-16-AM" width= 50px; height= 50px; border="0">
                 </div> 
-                <body>
+               
 </div>  
               
 
 
-<div class="row">
+<div class="row2">
 
 
-<div class="col-lg-12 col-sm-1">
+<div class="col-lg-12 col-md-1">
 
-  <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
+  <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 100px">
     <iframe src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0px"
       style="border:0" allowfullscreen></iframe>
 
