@@ -1,0 +1,425 @@
+
+<!doctype html>
+<html lang="en">
+    
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v4.1.1">
+    <title>Dashboard Template · Bootstrap</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    
+
+
+    <link href="https://getbootstrap.com/docs/4.5/examples/dashboard/">
+
+<!-- Bootstrap core CSS -->
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+
+.selector-for-some-widget {
+box-sizing: content-box;
+}
+.bd-placeholder-img {
+font-size: 1.125rem;
+text-anchor: middle;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+
+@media (min-width: 768px) {
+.bd-placeholder-img-lg {
+font-size: 3.5rem;
+}
+}
+
+.body {
+font-size: .875rem;
+}     
+.feather {
+  width: 16px;
+  height: 16px;
+  vertical-align: text-bottom;
+}
+
+.sidebar {
+  background-color: #081E34;
+  font color: #122337;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+  width: 400px;
+
+  
+}
+
+@media (max-width: 767.255px) {
+.sidebar {
+    top: 5rem;
+  }
+}
+
+.sidebar-sticky {
+  position: relative;
+  top: 0;
+  height: calc(100vh - 48px);
+  padding-top: .5rem;
+  overflow-x: hidden;
+  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+}
+
+@supports ((position: -webkit-sticky) or (position: sticky)) {
+  .sidebar-sticky {
+    position: -webkit-sticky;
+    position: sticky;
+  }
+}
+
+.sidebar .nav-link {
+  font-weight: 500;
+  color: #333;
+}
+
+.sidebar .nav-link .feather {
+  margin-right: 4px;
+  color: #999;
+}
+
+.sidebar .nav-link.active {
+  color: #007bff;
+}
+
+.sidebar .nav-link:hover .feather,
+.sidebar .nav-link.active .feather {
+  color: inherit;
+}
+
+.sidebar-heading {
+  font-size: .75rem;
+  text-transform: uppercase;
+}
+
+.navbar{
+
+  height: 53px;
+  background-color: rgba(191, 10, 10, 0.25);
+}
+.navbar-brand {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: 1rem;
+  background-color: rgba(191, 10, 10, 0.25);
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .25);
+}
+
+.navbar .navbar-toggler {
+  top: .25rem;
+  right: 1rem;
+}
+
+.navbar .form-control {
+  padding: .75rem 1rem;
+  border-width: 0;
+  border-radius: 0;
+}
+
+.form-control-dark {
+  color: #fff;
+  background-color: rgba(255, 255, 255, .1);
+  border-color: rgba(255, 255, 255, .1);
+  
+}
+
+.form-control-dark:focus {
+  border-color: transparent;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, .25);
+  background-color: rgb(255, 255, 255);
+}
+
+svg:hover {
+  stroke: black;
+  stroke-width: 0.5px;
+}
+.btn{
+
+height: 30px;
+:
+}
+
+
+.col {
+}
+
+.row>[class^=col] {
+        padding-top: 1em;
+        padding-bottom: 1em;
+        background-color: rgba(182, 89, 27, 0.25);
+        border: 1px solid rgba(228, 75, 15, 0.4);
+    }
+
+.row {
+        margin-top: 0.25em;
+}
+.my-auto {
+margin-top: auto;
+margin-bottom: auto;
+
+}
+
+.mb-3 {
+
+padding-left: 20px;
+
+}
+
+.mb-2{
+  width: auto;
+}
+
+.buttons {
+  height: px;
+  width: 1px;
+  color:
+}
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+
+
+}
+  > .col,
+  > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+.map-container{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+
+
+
+</style>
+    <!-- Custom styles for this template -->
+    <link href="dashboard.css" rel="stylesheet">
+  </head>
+  <body>
+<div class="row">
+     
+ <div class="col-md-2  col-sm-1">
+
+</div>
+            
+<div class="col-lg-10  col-sm-4" >
+           
+
+
+<div class="col-lg-12  col-sm-1">
+
+
+
+<div class="col-lg-12 col-sm-1">
+           
+ <body>
+
+
+        <div class="col-md-2 my-auto"></div>
+  <div class="col-lg-12">
+          <div class="row">
+            <div class="col-sm-2 my-auto">
+            <a><strong>Create a route</strong></a></div>
+            <div class="col-md-4 my-auto">
+            <input type="text" class="form-control" placeholder="Search Something"></div>
+  <div class="col-md-2"><a></a></div>
+              <div class="col-md-3 col-md-1 my-auto">
+                <a>Sandra Rooisenberg ▼</a></div>
+                <div class="col-sm-2 col-md-1 my-auto">
+                  <img src="https://i.ibb.co/JqNb8v8/Screen-Shot-2020-10-13-at-1-07-16-AM.png" alt="Screen-Shot-2020-10-13-at-1-07-16-AM" width= 50px; height= 50px; border="0">
+                </div> 
+                <body>
+</div>  
+              
+
+
+<div class="row">
+
+
+<div class="col-lg-12 col-sm-1">
+
+  <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
+    <iframe src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+      style="border:0" allowfullscreen></iframe>
+
+<div class="col">
+
+  <div class="col-md-6 col-sm-1">
+
+<div class="row d-flex justify-content-left">
+
+<!--Grid column-->
+   <div class="col-md-6  col-md-5 col-sm-12 border p-4">
+
+  <!-- Filter panel -->
+  <div class="mb-5">
+  
+    <ul class="list-unstyled link-black">
+      <li class="mb-2">
+        <h5 href="" class=""><strong>Road Attributes</strong></h5>
+     
+      <li class="mb-2">
+        <a href="" class="">Street name</a>
+        <div class="input-group mb-2">
+        <input type="text" class="form-control" placeholder="Enter street name" a="Recipient's username" aria-describedby="basic-addon2">
+        <div class="input-group-append">
+        
+        </div>
+       </div>
+      </li>
+      
+      <li class="mb-2">
+        <a href="" class="">Pavement Type</a>
+        <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+            <option selected>Select an option</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+      </li>
+      
+      <li class="mb-2">
+        <a href="" class="">Road type</a>
+        <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+            <option selected>Primary Street</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+      </li>
+     
+  
+  <div class="mb-3">
+    <ul class="list-unstyled link-black"></ul>
+    
+    <div class="form-check pl-0 mb-2">
+      <input type="checkbox" class="form-check-input" id="materialGroupExample1" name="groupOfMaterialRadios">
+      <label class="form-check-label" for="materialGroupExample1">Unpaved</label>
+    </div>
+
+    <div class="form-check pl-0 mb-2">
+      <input type="checkbox" class="form-check-input" id="materialGroupExample2" name="groupOfMaterialRadios"
+        checked>
+
+      
+      <label class="form-check-label" for="materialGroupExample2">Tunnel</label>
+    </div>
+
+    <div class="form-check pl-0 mb-2">
+      <input type="checkbox" class="form-check-input" id="materialGroupExample3" name="groupOfMaterialRadios">
+      <label class="form-check-label" for="materialGroupExample3">Headlights required</label>
+    </div>
+
+    <div class="form-check pl-0 mb-2">
+      <input type="checkbox" class="form-check-input" id="materialGroupExample4" name="groupOfMaterialRadios">
+      <label class="form-check-label" for="materialGroupExample4">Next to carpool/HOV/Bus lane</label>
+    </div>
+    <div>
+    </div>
+  </div>
+  <!-- Filter panel -->
+  <div class="mb-5">
+    <ul class="list-unstyled link-black">
+      
+     
+      <li class="mb-2">
+        <a href="" class="">Direction</a>
+        <div class="input-group mb-2">
+        
+          <div class="btn-group btn-group-toggle btn-md" data-toggle="buttons">
+            <label class="btn btn-primary active">
+              <input type="radio" name="options" id="option1" checked> Two way ⇄
+            </label>
+            <label class="btn btn-light btn-light">
+              <input type="radio" name="options" id="option2"> A>B  
+            </label>
+            <label class="btn btn-light btn-light">
+              <input type="radio" name="options" id="option3"> B>A
+            </label>
+       
+      </li>
+  <!-- Filter panel -->
+  <div class="mb-5">
+    <div class="test">
+    <ul class="list-unstyled link-black">
+      
+        
+      </div>
+      
+      <li class="mb-2">
+        <a href="" class="">Speed limit</a>
+      <li class="mb-2">
+        <div class="row">
+        <div class="col-lg-6">
+          <a href="" class=""><strong>Normal vehicle</strong></a>
+        </div>
+        <div class="col-lg-6">
+          <input step="1" type="number" id="inputLoop" value="0" data-decimals="0" min="-10" max="360"/>
+          <a href="" class="">Mph</a>
+        </div>
+        <li class="mb-2">
+          <div class="row">
+            <div class="col-lg-6">
+        <a href="" class=""><strong>Trucks</strong></a> 
+        </div>
+        <div class="col-lg-6">
+          
+        <button type="button" class="btn btn-primary active btn-sm">Default</button>
+
+        <button type="button" class="btn btn-light btn-sm">Reduced</button>
+      
+      </li>
+      <li class="mb-2">
+      <div class="row">
+        <div class="col-lg-6">
+          <a href="" class=""><strong>Trucks weight</strong></a>
+        </div>
+        <div class="col-lg-6">
+          <input step="1" type="number" id="inputLoop" value="0" data-decimals="0" min="-10" max="360"/>
+          <a href="" class="">Mph</a>
+        </div>
+        <li class="mb-2">
+          <div class="row">
+            <div class="col-lg-6">
+              <a href="" class=""><strong>Truck limit</strong></a>
+            </div>
+            <div class="col-lg-6">
+              <input step="1" type="number" id="inputLoop" value="0" data-decimals="0" min="-10" max="360"/>
+              <a href="" class="">Mph</a>
+            </div>
+<div class=
+
+
+
+
+</div>
+</div>
+
