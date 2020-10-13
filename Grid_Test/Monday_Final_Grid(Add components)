@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
     
@@ -212,15 +213,7 @@ height: 30px;
               </div>
               <div class="col-md-6  col-sm-1">
                 
-<nav class="navbar navbar-navbar-toggler-dark flex-md-nowrap p-0 shadow">
+<nav class="navbar navbar-navbar-togler-dark flex-md-nowrap p-0 shadow">
   
 
   <form class="form-inline my-2 my-lg-0 3">
-  
-  
-  
-  
-              </div>  
-              
-</div>
-            
