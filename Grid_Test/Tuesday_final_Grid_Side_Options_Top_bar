@@ -214,10 +214,11 @@ position:relative;
 height:0;
 }
 .map-container iframe{
-left:0;
+left:50px;
 top:0;
 height:100%;
 width:100%;
+align-items:fit;
 position:absolute;
 }
 
@@ -227,6 +228,10 @@ position:absolute;
 }
 
 .col3 {
+  background-color: #fff;
+}
+
+.col6 {
   background-color: #fff;
 }
 
@@ -241,7 +246,7 @@ position:absolute;
   <body>
 <div class="row">
      
- <div class="col-md-2  col-sm-1">
+ <div class="col-md-2  col-sm-1 col6">
 
 </div>
             
