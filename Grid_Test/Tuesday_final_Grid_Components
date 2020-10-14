@@ -154,9 +154,14 @@ svg:hover {
 
 height: 40px;
 background-color: rgb(235, 233, 233);
-:
+
 }
 
+.btn-group {
+  width: 500px;
+  height: 40px;
+          
+}
 
 .col {
   height:50%
@@ -197,8 +202,6 @@ padding-left: 20px;
   color:
 }
 .no-gutters {
-  margin-right: 0;
-  margin-left: 0;
 
 
 }
@@ -218,7 +221,7 @@ height:0;
 left:400px;
 top:0;
 height:190%;
-width:73%;
+width:20%;
 align-items:fit;
 position:absolute;
 }
@@ -229,7 +232,7 @@ position:absolute;
 }
 
 .col3 {
-  background-color: rgb(243, 241, 241);
+  background-color: rgb(228, 228, 228);
 }
 
 .col6 {
@@ -249,7 +252,7 @@ position:absolute;
 }
 
 .row2>[class^=col] {
-        padding-top: 1em;
+       
         padding-bottom: 1em;
 
     }
@@ -259,6 +262,15 @@ position:absolute;
         background-color: #ffffff;
 
 }
+
+.map-container iframe{
+left:400px;
+top:0;
+height:100%;
+width:20%;
+align-items:fit;
+position:absolute;
+}
 </style>
     <!-- Custom styles for this template -->
     <link href="dashboard.css" rel="stylesheet">
@@ -266,31 +278,45 @@ position:absolute;
   <body>
 <div class="row">
      
- <div class="col-md-2  col-md-1 col7">
+ <div class="col-md-2 col-md-1 col7">
+  
 
-</div>
-            
-<div class="col-lg-10 col3">
+        <form class="form-inline my-2 my-lg-0">
+        
+        <li class="mb-2">
+        
+        
+        <div class="container-fluid">
+          <div class="row">
+            <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg- sidebar collapse">
+              <div class="sidebar-sticky pt-3">
+                <ul class="nav flex-column">
+               
+              
+<div class="row">
+<div class="col-md-2 col-sm-1">
+               
+         
+    <div class="col-lg-10 col3" >
            
 
 
-<div class="col-lg-12  col-md-1">
+  <div class="col-lg-12  col-md-1">
 
 
 
-<div class="col-lg-12 col-md-1 col1">
+  <div class="col-lg-12 col-md-1 col3">
            
  <body>
 
 <div class="row">
-<div class="col-md-2 col-md-6 my-auto"></div>
-  <div class="col-lg-12 col1">
+  <div class="col-lg-12">
           <div class="row">
             <div class="col-md-2 my-auto">
-            <h3><strong>Create a route</strong></h3></div>
+            <a><strong>Create a route</strong></a></div>
             <div class="col-md-3 my-auto">
             <input type="text" class="form-control" placeholder="Search Something"></div>
-  <div class="col-xl-4"><a></a></div>
+  <div class="col-md-4"><a></a></div>
               <div class="col-md-2 col-md-1 my-auto">
                 <a>Sandra Rooisenberg    ▼ </a></div>
                 <div class="col-md-1 col-md-1 my-auto">
@@ -318,7 +344,7 @@ position:absolute;
 
 <!--Grid column-->
 
-   <div class="col-md-6  col-md-5 col-sm-12">
+   <div class="col-md-6  col-md-5 col-sm-1">
    
   <!-- Filter panel -->
  
@@ -394,9 +420,9 @@ position:absolute;
      
       <li class="mb-2">
         <a href="" class="">Direction</a>
-        <div class="input-group mb-2">
+        <div class="input-group btn-group">
         
-          <div class="btn-group btn-group-toggle btn-md" data-toggle="buttons">
+          <div class="btn-group btn-group-toggle" data-toggle="buttons">
             <label class="btn btn-primary active">
               <input type="radio" name="options" id="option1" checked> Two way ⇄
             </label>
@@ -457,11 +483,6 @@ position:absolute;
               <input step="1" type="number" id="inputLoop" value="0" data-decimals="0" min="-10" max="360"/>
               <a href="" class="">Mph</a>
             </div>
-<div class=
 
-
-
-
-</div>
 </div>
 
