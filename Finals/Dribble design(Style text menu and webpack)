@@ -1,0 +1,995 @@
+
+
+<!doctype html>
+<html lang="en">
+    
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v4.1.1">
+    <title>Dashboard Template · Bootstrap</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    
+
+
+    <link href="https://getbootstrap.com/docs/4.5/examples/dashboard/">
+
+<!-- Bootstrap core CSS -->
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+
+.selector-for-some-widget {
+box-sizing: content-box;
+}
+.bd-placeholder-img {
+font-size: 1.125rem;
+text-anchor: middle;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+
+@media (min-width: 768px) {
+.bd-placeholder-img-lg {
+font-size: 3.5rem;
+}
+}
+
+.body {
+font-size: .875rem;
+}     
+.feather {
+  width: 16px;
+  height: 16px;
+  vertical-align: text-bottom;
+}
+
+.sidebar {
+  background-color: #081E34;
+  font color: #122337;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+  width: 400px;
+
+  
+}
+
+@media (max-width: 767.255px) {
+.sidebar {
+    top: 5rem;
+  }
+}
+
+.sidebar-sticky {
+  position: relative;
+  top: 0;
+  height: calc(100vh - 48px);
+  padding-top: .5rem;
+  overflow-x: hidden;
+  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+}
+
+@supports ((position: -webkit-sticky) or (position: sticky)) {
+  .sidebar-sticky {
+    position: -webkit-sticky;
+    position: sticky;
+  }
+}
+
+.sidebar .nav-link {
+  font-weight: 500;
+  color: #333;
+}
+
+.sidebar .nav-link .feather {
+  margin-right: 4px;
+  color: #999;
+}
+
+.sidebar .nav-link.active {
+  color: #007bff;
+}
+
+.sidebar .nav-link:hover .feather,
+.sidebar .nav-link.active .feather {
+  color: inherit;
+}
+
+.sidebar-heading {
+  font-size: .75rem;
+  text-transform: uppercase;
+}
+
+.navbar{
+
+  height: 53px;
+}
+.navbar-brand {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: 1rem;
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .25);
+}
+
+.navbar .navbar-toggler {
+  top: .25rem;
+  right: 1rem;
+}
+
+.navbar .form-control {
+  padding: .75rem 1rem;
+  border-width: 0;
+  border-radius: 0;
+}
+
+.form-control-dark {
+  color: #fff;
+  background-color: rgba(255, 255, 255, .1);
+  border-color: rgba(255, 255, 255, .1);
+  
+}
+
+.form-control-dark:focus {
+  border-color: transparent;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, .25);
+  background-color: rgb(255, 255, 255);
+}
+
+svg:hover {
+  stroke: black;
+  stroke-width: 0.5px;
+}
+.btn{
+
+height: 30px;
+:
+}
+
+
+.col {
+
+.row>[class^=col] {
+        padding-top: 1em;
+        padding-bottom: 1em;
+        background-color: rgba(182, 89, 27, 0.25);
+        border: 1px solid rgba(228, 75, 15, 0.4);
+    }
+
+.row {
+        margin-top: 0.25em;
+
+
+
+</style>
+    <!-- Custom styles for this template -->
+    <link href="dashboard.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="row">
+     
+     <div class="col-md-2  col-md-1 col7">
+    
+    </div>
+                
+    <div class="col-lg-10 col3">
+               
+    
+    
+    <div class="col-lg-12 col-md-6">
+    
+    
+    
+    <div class="col-lg-12 col-md-6 col1">
+               
+     <body>
+    
+    <div class="row">
+    <div class="col-md-2 col-md-6 my-auto"></div>
+      <div class="col-lg-12 col1">
+    <div class="row">
+                <div class="col-md-2 my-auto">
+                <h3><strong>Create a route</strong></h3></div>
+                <div class="col-md-3 my-auto">
+                <input type="text" class="form-control" placeholder="Search Something"></div>
+      <div class="col-xl-4"><a></a></div>
+                  <div class="col-md-2 col-md-1 my-auto">
+                    <a>Sandra Rooisenberg    ▼ </a></div>
+                    <div class="col-md-1 col-md-1 my-auto">
+                      <img src="https://i.ibb.co/JqNb8v8/Screen-Shot-2020-10-13-at-1-07-16-AM.png" alt="Screen-Shot-2020-10-13-at-1-07-16-AM" width= 50px; height= 50px; border="0">
+                    </div> 
+                   
+    </div>  
+                  
+    
+    
+    <div class="row2">
+    
+    
+    <div class="col-lg-12 col--4 my-auto">
+    
+      <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 2px">
+        <iframe src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0px"
+          style="border:0" allowfullscreen></iframe>
+    
+    
+         
+    
+    <div class="col-md-6 col-md-6 my-auto">
+       
+    
+    <!--Grid column-->
+    
+       <div class="col-md-6 col-md-6 my-auto">
+       
+      <!-- Filter panel -->
+     
+      <div class="mb-5">
+       
+        <ul class="list-unstyled link-black">
+          <li class="mb-2">
+            <h5 href="" class=""><strong>Road Attributes</strong></h5>
+         
+          <li class="mb-2">
+            <a href="" class="">Street name</a>
+            <div class="input-group mb-2">
+            <input type="text" class="form-control" placeholder="Enter street name" a="Recipient's username" aria-describedby="basic-addon2">
+            <div class="input-group-append">
+            
+            </div>
+           </div>
+          </li>
+          
+          <li class="mb-2">
+            <a href="" class="">Pavement Type</a>
+            <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+                <option selected>Select an option</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+          </li>
+          
+          <li class="mb-2">
+            <a href="" class="">Road type</a>
+            <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+                <option selected>Primary Street</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+          </li>
+         
+      
+      <div class="mb-3">
+        <ul class="list-unstyled link-black"></ul>
+        
+        <div class="form-check pl-0 mb-2">
+          <input type="checkbox" class="form-check-input" id="materialGroupExample1" name="groupOfMaterialRadios">
+          <label class="form-check-label" for="materialGroupExample1">Unpaved</label>
+        </div>
+    
+        <div class="form-check pl-0 mb-2">
+          <input type="checkbox" class="form-check-input" id="materialGroupExample2" name="groupOfMaterialRadios"
+            checked>
+    
+          
+          <label class="form-check-label" for="materialGroupExample2">Tunnel</label>
+        </div>
+    
+        <div class="form-check pl-0 mb-2">
+          <input type="checkbox" class="form-check-input" id="materialGroupExample3" name="groupOfMaterialRadios">
+          <label class="form-check-label" for="materialGroupExample3">Headlights required</label>
+        </div>
+    
+        <div class="form-check pl-0 mb-2">
+          <input type="checkbox" class="form-check-input" id="materialGroupExample4" name="groupOfMaterialRadios">
+          <label class="form-check-label" for="materialGroupExample4">Next to carpool/HOV/Bus lane</label>
+        </div>
+        <div>
+        </div>
+      </div>
+      <!-- Filter panel -->
+      <div class="mb-5">
+        <ul class="list-unstyled link-black">
+          
+         
+          <li class="mb-2">
+            <a href="" class="">Direction</a>
+            <div class="input-group mb-2">
+            
+              <div class="btn-group btn-group-toggle btn-md" data-toggle="buttons">
+                <label class="btn btn-primary active">
+                  <input type="radio" name="options" id="option1" checked> Two way ⇄
+                </label>
+                <label class="btn btn-light btn-light">
+                  <input type="radio" name="options" id="option2"> A>B  
+                </label>
+                <label class="btn btn-light btn-light">
+                  <input type="radio" name="options" id="option3"> B>A
+                </label>
+           
+          </li>
+      <!-- Filter panel -->
+      <div class="mb-5">
+        <div class="test">
+        <ul class="list-unstyled link-black">
+          
+            
+          </div>
+          
+          <li class="mb-2">
+            <a href="" class="">Speed limit</a>
+          <li class="mb-2">
+            <div class="row">
+            <div class="col-lg-6">
+              <a href="" class=""><strong>Normal vehicle</strong></a>
+            </div>
+            <div class="col-lg-6">
+              <input step="1" type="number" id="inputLoop" value="0" data-decimals="0" min="-10" max="360"/>
+              <a href="" class="">Mph</a>
+            </div>
+            <li class="mb-2">
+              <div class="row">
+                <div class="col-lg-6">
+            <a href="" class=""><strong>Trucks</strong></a> 
+            </div>
+            <div class="col-lg-6">
+              
+            <button type="button" class="btn btn-primary active btn-sm">Default</button>
+    
+            <button type="button" class="btn btn-light btn-sm">Reduced</button>
+          
+          </li>
+          <li class="mb-2">
+          <div class="row">
+            <div class="col-lg-6">
+              <a href="" class=""><strong>Trucks weight</strong></a>
+            </div>
+            <div class="col-lg-6">
+              <input step="1" type="number" id="inputLoop" value="0" data-decimals="0" min="-10" max="360"/>
+              <a href="" class="">Mph</a>
+            </div>
+            <li class="mb-2">
+              <div class="row">
+                <div class="col-lg-6">
+                  <a href="" class=""><strong>Truck limit</strong></a>
+                </div>
+                <div class="col-lg-6">
+                  <input step="1" type="number" id="inputLoop" value="0" data-decimals="0" min="-10" max="360"/>
+                  <a href="" class="">Mph</a>
+                </div>
+    
+    
+    
+    </div>
+    
+</body>    
+
+<form class="form-inline my-2 my-lg-0">
+
+<li class="mb-2">
+</nav>
+
+<div class="container-fluid">
+  <div class="row">
+    <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg- sidebar collapse">
+      <div class="sidebar-sticky pt-3">
+        <ul class="nav flex-column">
+       
+      
+     
+      <div class="row">
+     <div class="col-sm-2 col-lg-7">
+       <li class="nav-item">
+     
+        <a href="https://imgbb.com/"><img src="https://i.ibb.co/YPQHxF6/Untitled.png" alt="Untitled"  hspace="5px" vspace="5px">
+
+
+        </div><href="#"><button type="button1" class="btn btn-outline-secondary btn-sm">CARRIER MODE</button>
+       </div>
+        </li>
+      <form class="form-inline my-2 my-lg-0">
+        </li>
+          <li class="nav-item">
+            <li class="nav-item">
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <span data-feather="home"></span>
+                Dashboard
+              </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <span data-feather="user"></span>
+              Team
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">
+              <span data-feather="map"></span>
+              Route Planning <span class="sr-only">(current)</span>
+
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#">
+              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-three-dots-vertical" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+              </svg>
+              My Routes
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">
+              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-three-dots-vertical" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+              </svg>
+              Create Route
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <span data-feather="box"></span>
+              Shipments
+            </a>
+          </li>
+        </ul>
+
+        </h6>
+        <ul class="nav flex-column mb-2">
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <span data-feather="calendar"></span>
+              Appointments
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-geo-alt" fill="grey" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M12.166 8.94C12.696 7.867 13 6.862 13 6A5 5 0 0 0 3 6c0 .862.305 1.867.834 2.94.524 1.062 1.234 2.12 1.96 3.07A31.481 31.481 0 0 0 8 14.58l.208-.22a31.493 31.493 0 0 0 1.998-2.35c.726-.95 1.436-2.008 1.96-3.07zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+                <path fill-rule="evenodd" d="M8 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+              </svg> 
+              Facility and places
+            </a>
+          </li>
+        </ul>
+  
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+<script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js">')</script><script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.28.0/feather.min.js" integrity="sha512-7x3zila4t2qNycrtZ31HO0NnJr8kg2VI67YLoRSyi9hGhRN66FHYWr7Axa9Y1J9tGYHVBPqIjSE1ogHrJTz51g==" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
+<script src="dashboard.js"></script>
+      
+</body>
+
+</html>
+<!doctype html>
+<html lang="en">
+    
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v4.1.1">
+    <title>Dashboard Template · Bootstrap</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    
+
+
+    <link href="https://getbootstrap.com/docs/4.5/examples/dashboard/">
+
+<!-- Bootstrap core CSS -->
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+
+.selector-for-some-widget {
+box-sizing: content-box;
+}
+.bd-placeholder-img {
+font-size: 1.125rem;
+text-anchor: middle;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+
+@media (min-width: 768px) {
+.bd-placeholder-img-lg {
+font-size: 3.5rem;
+}
+}
+
+.body {
+font-size: .875rem;
+}     
+.feather {
+  width: 16px;
+  height: 16px;
+  vertical-align: text-bottom;
+}
+
+.sidebar {
+  background-color: #081E34;
+  font color: #122337;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+  width: 400px;
+
+  
+}
+
+@media (max-width: 767.255px) {
+.sidebar {
+    top: 5rem;
+  }
+}
+
+.sidebar-sticky {
+  position: relative;
+  top: 0;
+  height: calc(100vh - 48px);
+  padding-top: .5rem;
+  overflow-x: hidden;
+  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+}
+
+@supports ((position: -webkit-sticky) or (position: sticky)) {
+  .sidebar-sticky {
+    position: -webkit-sticky;
+    position: sticky;
+  }
+}
+
+.sidebar .nav-link {
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+}
+
+.sidebar .nav-link .feather {
+  margin-right: 4px;
+  color: rgb(255, 255, 255);
+}
+
+.sidebar .nav-link.active {
+  color: #007bff;
+}
+
+.sidebar .nav-link:hover .feather,
+.sidebar .nav-link.active .feather {
+  color: inherit;
+}
+
+.sidebar-heading {
+  font-size: .75rem;
+  text-transform: uppercase;
+}
+
+.navbar{
+
+  height: 53px;
+  background-color: rgba(191, 10, 10, 0.25);
+}
+.navbar-brand {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: 1rem;
+  background-color: rgba(191, 10, 10, 0.25);
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .25);
+}
+
+.navbar .navbar-toggler {
+  top: .25rem;
+  right: 1rem;
+}
+
+.navbar .form-control {
+  padding: .75rem 1rem;
+  border-width: 0;
+  border-radius: 0;
+}
+
+.form-control-dark {
+  color: #fff;
+  background-color: rgba(255, 255, 255, .1);
+  border-color: rgba(255, 255, 255, .1);
+  
+}
+
+.form-control-dark:focus {
+  border-color: transparent;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, .25);
+  background-color: rgb(255, 255, 255);
+}
+
+svg:hover {
+  stroke: black;
+  stroke-width: 0.5px;
+}
+
+<style>
+
+.selector-for-some-widget {
+box-sizing: content-box;
+}
+.bd-placeholder-img {
+font-size: 1.125rem;
+text-anchor: middle;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+
+@media (min-width: 768px) {
+.bd-placeholder-img-lg {
+font-size: 3.5rem;
+}
+}
+
+.body {
+font-size: .875rem;
+}     
+.feather {
+  width: 16px;
+  height: 16px;
+  vertical-align: text-bottom;
+}
+
+.sidebar {
+  background-color: #081E34;
+  font color: #122337;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+  width: 400px;
+
+  
+}
+
+@media (max-width: 767.255px) {
+.sidebar {
+    top: 5rem;
+  }
+}
+
+.sidebar-sticky {
+  position: relative;
+  top: 0;
+  height: calc(100vh - 48px);
+  padding-top: .5rem;
+  overflow-x: hidden;
+  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+}
+
+@supports ((position: -webkit-sticky) or (position: sticky)) {
+  .sidebar-sticky {
+    position: -webkit-sticky;
+    position: sticky;
+  }
+}
+
+.sidebar .nav-link {
+  font-weight: 500;
+  color: #333;
+}
+
+.sidebar .nav-link .feather {
+  margin-right: 4px;
+  color: #999;
+}
+
+.sidebar .nav-link.active {
+  color: #007bff;
+}
+
+.sidebar .nav-link:hover .feather,
+.sidebar .nav-link.active .feather {
+  color: inherit;
+}
+
+.sidebar-heading {
+  font-size: .75rem;
+  text-transform: uppercase;
+}
+
+.navbar{
+
+  height: 53px;
+  background-color: rgba(191, 10, 10, 0.25);
+}
+.navbar-brand {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: 1rem;
+  background-color: rgba(191, 10, 10, 0.25);
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .25);
+}
+
+.navbar .navbar-toggler {
+  top: .25rem;
+  right: 1rem;
+}
+
+.navbar .form-control {
+  padding: .75rem 1rem;
+  border-width: 0;
+  border-radius: 0;
+}
+
+.form-control-dark {
+  color: #fff;
+  background-color: rgba(255, 255, 255, .1);
+  border-color: rgba(255, 255, 255, .1);
+  
+}
+
+.form-control-dark:focus {
+  border-color: transparent;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, .25);
+  background-color: rgb(255, 255, 255);
+}
+
+svg:hover {
+  stroke: black;
+  stroke-width: 0.5px;
+}
+.btn{
+
+height: 40px;
+background-color: rgb(235, 233, 233);
+:
+}
+
+
+.col {
+  height:50%
+}
+
+.row>[class^=col] {
+        padding-top: 1em;
+        padding-bottom: 1em;
+
+    }
+
+.row {
+
+}
+.my-auto {
+margin-top: auto;
+margin-bottom: auto;
+
+}
+
+.mb-3 {
+
+padding-left: 20px;
+
+}
+
+.mb-2{
+  width: 500;
+}
+
+.mb-5 {
+  width: ;
+}
+
+.buttons {
+  height: 100%;
+  width: 100%;;
+
+}
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+
+
+}
+  > .col,
+  > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+.map-container{
+overflow:hidden;
+padding-bottom:55%;
+position:relative;
+height:0;
+}
+.map-container iframe{
+left:400px;
+top:0;
+height:100%;
+width:73%;
+align-items:fit;
+position:absolute;
+}
+
+.col2 {
+
+  background-color: #fff;
+}
+
+.col3 {
+  background-color: rgb(243, 241, 241);
+}
+
+.col6 {
+  background-color: rgb(194, 101, 101);
+}
+
+.mb-5 {
+
+  background-color: #fff;
+}
+
+
+
+.col7 {
+  background-color: #112337;
+
+}
+
+.row2>[class^=col] {
+        padding-top: 1em;
+        padding-bottom: 1em;
+
+    }
+
+.row2 {
+       
+        background-color: #ffffff;
+
+}
+</style>
+    <!-- Custom styles for this template -->
+    <link href="dashboard.css" rel="stylesheet">
+  </head>
+  <body>
+  
+<nav class="navbar navbar-navbar-toggler-dark flex-md-nowrap p-0 shadow">
+  
+
+<form class="form-inline my-2 my-lg-0">
+
+<li class="mb-2">
+</nav>
+
+<div class="container-fluid">
+  <div class="row">
+    <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg- sidebar collapse">
+      <div class="sidebar-sticky pt-3">
+        <ul class="nav flex-column">
+       
+      
+     
+      <div class="row">
+     <div class="col-sm-2 col-lg-7">
+       <li class="nav-item">
+     
+        <a href="https://imgbb.com/"><img src="https://i.ibb.co/YPQHxF6/Untitled.png" alt="Untitled"  hspace="5px" vspace="5px">
+
+
+        </div><href="#"><button type="button1" class="btn btn-outline-secondary btn-sm">CARRIER MODE</button>
+       </div>
+        </li>
+      <form class="form-inline my-2 my-lg-0">
+        </li>
+          <li class="nav-item">
+            <li class="nav-item">
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <span data-feather="home"></span>
+                Dashboard
+              </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <span data-feather="user"></span>
+              Team
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">
+              <span data-feather="map"></span>
+              Route Planning <span class="sr-only">(current)</span>
+
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#">
+              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-three-dots-vertical" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+              </svg>
+              My Routes
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">
+              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-three-dots-vertical" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+              </svg>
+              Create Route
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <span data-feather="box"></span>
+              Shipments
+            </a>
+          </li>
+        </ul>
+
+        </h6>
+        <ul class="nav flex-column mb-2">
+          <li class="nav-item">
+            <a class="nav-link"  href="#">
+              <span data-feather="calendar"></span>
+              Appointments
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-geo-alt" fill="grey" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M12.166 8.94C12.696 7.867 13 6.862 13 6A5 5 0 0 0 3 6c0 .862.305 1.867.834 2.94.524 1.062 1.234 2.12 1.96 3.07A31.481 31.481 0 0 0 8 14.58l.208-.22a31.493 31.493 0 0 0 1.998-2.35c.726-.95 1.436-2.008 1.96-3.07zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+                <path fill-rule="evenodd" d="M8 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+              </svg> 
+              Facility and places
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+</div>  
+
+  
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+<script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js">')</script><script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.28.0/feather.min.js" integrity="sha512-7x3zila4t2qNycrtZ31HO0NnJr8kg2VI67YLoRSyi9hGhRN66FHYWr7Axa9Y1J9tGYHVBPqIjSE1ogHrJTz51g==" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
+<script src="dashboard.js"></script>
+      
+</body>
+
+</html>
