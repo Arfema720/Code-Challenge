@@ -289,12 +289,18 @@
     stroke-width: 0.5px;
   }
   .btn{
-  
+  width: auto;
   height: 40px;
   background-color: rgb(235, 233, 233);
-  :
+  
   }
   
+  .btn-group {
+  
+  height: 40px;
+  background-color: rgb(150, 150, 150);
+ 
+  }
   
   .col {
     height:50%
@@ -348,7 +354,7 @@
   
   .map-container{
   overflow:hidden;
-  padding-bottom:55%;
+  padding-bottom:950px;
   position:relative;
   height:0;
   }
@@ -356,7 +362,7 @@
   left:400px;
   top:0;
   height:100%;
-  width:73%;
+  width:72%;
   align-items:fit;
   position:absolute;
   }
@@ -398,10 +404,11 @@
   
   }
   
-  .button{
-      width: 10%;
-  }
-  
+  a {
+ color: black;
+}
+
+
   </style>
   </head>
   <body>
@@ -534,7 +541,7 @@
             <a href="" class="">Direction</a>
             <div class="input-group mb-2">
             
-              <div class="btn-group btn-group-toggle btn-md" data-toggle="buttons">
+              <div class="btn- btn-group-toggle btn-md" data-toggle="buttons">
                 <label class="btn btn-primary active">
                   <input type="radio" name="options" id="option1" checked> Two way ⇄
                 </label>
@@ -624,7 +631,7 @@
         <a href="https://imgbb.com/"><img src="https://i.ibb.co/YPQHxF6/Untitled.png" alt="Untitled"  hspace="6px" vspace="6px">
 
 
-        </div><href="#"><button type="button" class="btn btn-outline-secondary btn-sm">CARRIER MODE</button>
+        </div><href="#"><button type="button" class="btn-group btn-secondary btn-sm">CARRIER MODE</button></p></button></href>
        </div>
         </li>
       <form class="form-inline my-2 my-lg-0">
