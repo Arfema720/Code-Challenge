@@ -602,20 +602,22 @@
     
 </body>    
 
+<div class="container-fluid">
+  <div class="row my">
 <form class="form-inline my-2 my-lg-0">
 
 <li class="mb-2">
 </nav>
 
 <div class="container-fluid">
-  <div class="row">
+  <div class="row my-auto">
     <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg- sidebar collapse">
       <div class="sidebar-sticky pt-3">
         <ul class="nav flex-column">
        
       
      
-      <div class="row">
+      <div class="row my-auto">
      <div class="col-sm-2 col-lg-7">
        <li class="nav-item">
      
