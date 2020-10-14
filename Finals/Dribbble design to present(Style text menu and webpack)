@@ -92,9 +92,11 @@
   }
   
   .sidebar .nav-link {
-    font-weight: 500;
+    font-weight: 400;
+    font-size: medium;
     color: rgb(255, 255, 255);
-    
+    margin-top:2px;
+  
   }
   
   .sidebar .nav-link .feather {
@@ -104,6 +106,8 @@
   
   .sidebar .nav-link.active {
     color: #007bff;
+    font-size:large;
+    font-weight: 500;
   }
   
   .sidebar .nav-link:hover .feather,
@@ -417,25 +421,25 @@
       </div>
       <!-- Filter panel -->
       <div class="mb-5">
+        
         <ul class="list-unstyled link-black">
           
          
-          <li class="mb-5">
+          <li class="mb-2">
             <a href="" class="">Direction</a>
             <div class="input-group">
             
-              <div class="btn btn-group-toggle btn-md" data-toggle="buttons">
-                <label class="btn btn-primary active">
-                  <input type="radio" name="options" id="option1" checked> Two way ⇄
-                </label>
-                <label class="btn btn-light btn-light">
-                  <input type="radio" name="options" id="option2"> A>B  
-                </label>
-                <label class="btn btn-light btn-light">
-                  <input type="radio" name="options" id="option3"> B>A
-                </label>
-           
-          </li>
+              <div class="btn-group btn-group-toggle" data-toggle="buttons">
+              <label class="btn btn-primary active">
+                <input type="radio" name="options" id="option1" checked> Two way ⇄  </label>
+              <label class="btn btn-secondary">
+                <input type="radio" name="options" id="option2"> A>B  
+              </label>
+              <label class="btn btn-secondary">
+                <input type="radio" name="options" id="option3"> B>A
+              </label>
+</div>
+          
       <!-- Filter panel -->
       <div class="mb-5">
         <div class="test">
@@ -464,7 +468,7 @@
               
             <button type="button" class="btn btn-primary active btn-sm">Default</button>
     
-            <button type="button" class="btn btn-light btn-sm">Reduced</button>
+            <button type="button" class="btn btn-secondary btn-sm">Reduced</button>
           
           </li>
           <li class="mb-2">
