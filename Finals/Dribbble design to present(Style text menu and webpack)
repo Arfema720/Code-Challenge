@@ -309,7 +309,7 @@
   .row>[class^=col] {
           padding-top: 1em;
           padding-bottom: 1em;
-  
+          padding-left: em;
       }
   
   .row {
@@ -409,6 +409,13 @@
 }
 
 
+
+}
+
+.span { 
+
+}
+  
   </style>
   </head>
   <body>
@@ -613,8 +620,6 @@
   <div class="row my">
 <form class="form-inline my-2 my-lg-0">
 
-<li class="mb-2">
-</nav>
 
 <div class="container-fluid">
   <div class="row my-auto">
@@ -625,13 +630,19 @@
       
      
       <div class="row my-auto">
-     <div class="col-sm-2 col-lg-7">
-       <li class="nav-item">
+     <div class="col-md-2 col-lg-7">
+       <li class="nav-item"></li>
      
-        <a href="https://imgbb.com/"><img src="https://i.ibb.co/YPQHxF6/Untitled.png" alt="Untitled"  hspace="6px" vspace="6px">
+        <li class="container-fluid"
+     
+          <div class="col-sm-6">
+      </div>
+    
+    <a href="https://imgbb.com/"><img src="https://i.ibb.co/YPQHxF6/Untitled.png" alt="Untitled"  hspace="6px" vspace="6px">
 
-
-        </div><href="#"><button type="button" class="btn-group btn-secondary btn-sm">CARRIER MODE</button></p></button></href>
+    <button type="button" class="btn-group btn-secondary btn-lights">CARRIER MODE</button>
+   </div>
+   <div class="row3">
        </div>
         </li>
       <form class="form-inline my-2 my-lg-0">
@@ -699,6 +710,7 @@
             </a>
           </li>
         </ul>
+
 <style>
   .buttton1 {
 
