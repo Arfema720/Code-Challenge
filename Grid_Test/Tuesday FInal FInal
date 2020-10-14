@@ -1,5 +1,4 @@
 
-
 <!doctype html>
 <html lang="en">
     
@@ -447,7 +446,7 @@ position:absolute;
         </div>
         <div class="col-lg-6">
           <input step="1" type="number" id="inputLoop" value="0" data-decimals="0" min="-10" max="360"/>
-          <a href="" class="">Mph</a>
+          <a href="" class="">Tons</a>
         </div>
         <li class="mb-2">
           <div class="row">
