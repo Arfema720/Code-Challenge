@@ -547,9 +547,9 @@
         <ul class="list-unstyled link-black">
           
          
-          <li class="mb-2">
+          <li class="mb-5">
             <a href="" class="">Direction</a>
-            <div class="input-group mb-2">
+            <div class="input-group">
             
               <div class="btn btn-group-toggle btn-md" data-toggle="buttons">
                 <label class="btn btn-primary active">
@@ -645,7 +645,6 @@
 
     <button type="button" class="btn-group btn-secondary btn-lights">CARRIER MODE</button>
    </div>
-   
    <div class=" col-lg row3">
        
           <li class="nav-item">
@@ -691,6 +690,10 @@
               Shipments
             </a>
           </li>
+        </ul>
+
+        </h6>
+        <ul class="nav flex-column mb-2">
           <li class="nav-item">
             <a class="nav-link" href="#">
               <span data-feather="calendar"></span>
